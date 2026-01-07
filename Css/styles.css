@@ -36,13 +36,58 @@ body {
   gap: 0.8rem;
 }
 
-.nav__ist a {
+.nav__list a {
   text-decoration: none;
+  font-weight: 700;
   color: #66606e;
 }
 
-.nav__list a:hover{
-  color: #5d4c72;
-  font-weight: bold;
+/* Header */
+.header {
+  text-align: center;
+  margin: 1.5rem;
 }
 
+.header__text {
+  margin-bottom: 0.8rem;
+}
+
+.header__text h2 {
+  font-size: 2rem;
+  margin-bottom: 0.5rem;
+  color: #2d2642;
+}
+
+.header__text p {
+  font-size: 0.8rem;
+  color: #66606e;
+}
+
+.text__links {
+  margin-top: 0.8rem;
+}
+
+.text__links a {
+  text-decoration: none;
+  padding: 0.2rem 0.5rem;
+  border-radius: 0.2rem;
+  color: #66606e;
+}
+
+.text__links a:first-child {
+  background: linear-gradient(#b773ff, #ca78f0);
+  color: #ffffff;
+}
+
+.header__img {
+  overflow: hidden;
+  max-width: 90%;
+  margin: 0 auto;
+  margin-top: 1rem;
+  border-radius: 50%;
+}
+
+.header__img img {
+  width: 100%;
+  object-fit: cover;
+}
