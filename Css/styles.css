@@ -108,3 +108,63 @@ body {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-weight: bold;
 }
+
+/* About */
+.about {
+  text-align: center;
+  padding: 1rem 2rem;
+}
+
+.about h2 {
+  font-size: 1.2rem;
+  margin-bottom: 0.5rem;
+  color: #2d2642;
+}
+
+.about__container {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.about__container p {
+  font-size: 0.8rem;
+  color: #66606e;
+}
+
+.container__progress h3 {
+  color: #2d2642;
+  margin-bottom: 0.5rem;
+}
+
+.progress__badged {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1rem;
+  margin: 1rem;
+}
+
+.badged {
+  padding: 0.5rem;
+  border-radius: 0.5rem;
+}
+
+.badged-next {
+  color: #f9f2fa;
+  background-color: #000000;
+}
+
+.badged-node {
+  color: #f9f2fa;
+  background-color: #339933;
+}
+
+.badged-express {
+  color: #f9f2fa;
+  background-color: #000000;
+}
+
+.badged-posgre {
+  color: #f9f2fa;
+  background-color: #336791;
+}
