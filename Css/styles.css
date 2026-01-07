@@ -63,6 +63,11 @@ body {
   color: #66606e;
 }
 
+.header__text p span {
+  font-size: 1rem;
+  font-weight: bold;
+}
+
 .text__links {
   margin-top: 0.8rem;
 }
@@ -90,4 +95,16 @@ body {
 .header__img img {
   width: 100%;
   object-fit: cover;
+}
+
+.tech {
+  text-align: center;
+  padding: 1rem 2rem;
+  color: #ffffff;
+  background: linear-gradient(#b773ff, #ca78f0);
+}
+
+.tech p {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: bold;
 }
