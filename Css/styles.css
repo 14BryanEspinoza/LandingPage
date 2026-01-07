@@ -25,23 +25,23 @@ body {
   padding: 0.5rem 1.5rem;
 }
 
-.nav-logo {
+.nav__logo {
   font-size: 0.8rem;
   color: #2d2642;
 }
 
-.nav-list {
+.nav__list {
   display: flex;
   list-style: none;
   gap: 0.8rem;
 }
 
-.nav-list a {
+.nav__ist a {
   text-decoration: none;
   color: #66606e;
 }
 
-.nav-list a:hover{
+.nav__list a:hover{
   color: #5d4c72;
   font-weight: bold;
 }
