@@ -81,7 +81,7 @@ body {
 }
 
 .text__links a:first-child {
-  background: linear-gradient(to left, #b773ff, #ca78f0);
+  background: linear-gradient(to left top, #b773ff, #e887c3);
   color: #ffffff;
 }
 
@@ -102,7 +102,7 @@ body {
   text-align: center;
   padding: 1rem 2rem;
   color: #ffffff;
-  background: linear-gradient(to left, #b773ff, #ca78f0);
+  background: linear-gradient(to left top, #b773ff, #e887c3);
 }
 
 .tech p {
@@ -177,7 +177,7 @@ body {
   padding: 2rem;
   margin: 1rem auto;
   color: #ffffff;
-  background-color: #bc75fa;
+  background: linear-gradient(to left top, #b773ff, #e887c3);
 }
 
 .skills h2 {
@@ -185,26 +185,32 @@ body {
   margin-bottom: 0.5rem;
 }
 
-.skills__tools,
-.skills__front {
-  margin: 0.5rem auto;
+.skills__grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(80px, 1fr));
+  gap: 1rem;
+  margin: 1rem;
 }
 
-.skills__tools h3,
-.skills__front h3 {
-  font-size: 1rem;
+
+
+/* Footer */
+.footer {
+  text-align: center;
+  padding: 2rem;
+  color: #ffffff;
+  background: linear-gradient(to left top, #b773ff, #e887c3);
+}
+
+.footer__link {
+  display: flex;
+  justify-content: center;
+  gap: 1.2rem;
   margin-bottom: 1rem;
 }
 
-.skills__tools p,
-.skills__front p {
-  text-align: left;
-  margin-bottom: 1rem;
-}
-
-.skills__tools p span,
-.skills__front p span {
-  padding: 0.2rem 0.5rem;
-  border-radius: 0.5rem;
-  box-shadow: 3px 3px 1px #000000;
+.footer__link a {
+  text-decoration: none;
+  font-weight: 700;
+  color: #2d2642;
 }
