@@ -192,7 +192,45 @@ body {
   margin: 1rem;
 }
 
+/* Contact */
+.contact {
+  padding: 2rem;
+}
 
+.contact h2 {
+  font-size: 1.2rem;
+  margin-bottom: 0.5rem;
+}
+
+.from__group {
+  margin: 1rem auto;
+}
+
+.from__group label {
+  display: inline-block;
+  font-weight: bold;
+  width: 100%;
+  margin-bottom: 0.5rem;
+  color: #2d2642;
+}
+
+.from__group input, textarea {
+  border: none;
+  outline: none;
+  width: 100%;
+  border-radius: 0.5rem;
+  padding: 0.4rem 1rem;
+  border: 1px solid #2d2642;
+}
+
+.from button {
+  outline: none;
+  border: none;
+  border-radius: 0.5rem;
+  padding: 0.5rem 1rem;
+  color: #ffffff;
+  background: linear-gradient(to left top, #b773ff, #e887c3);
+}
 
 /* Footer */
 .footer {
