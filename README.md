@@ -1,9 +1,11 @@
 # Landing Page - 14BryanEspinoza
 
 ## Descripción del proyecto
+
 Esta landing page es un proyecto personal creado para practicar y consolidar conocimientos de **HTML5** y **CSS3**, así como el uso de herramientas de desarrollo modernas como **Git**, **GitHub** y **Warp**.
 
 El sitio funciona como una carta de presentación de **Bryan Espinoza**, desarrollador frontend, e incluye:
+
 - Sección de navegación con anclajes internos.
 - Hero principal con una breve descripción profesional y enlaces a GitHub y LinkedIn.
 - Sección de tecnologías en las que se está especializando (JavaScript, TypeScript, React, Astro).
@@ -13,6 +15,7 @@ El sitio funciona como una carta de presentación de **Bryan Espinoza**, desarro
 - Footer con enlaces a redes y derechos de autor.
 
 ## Tecnologías usadas
+
 - **HTML5**: estructura semántica de la página.
 - **CSS3**: estilos, sistema de grid, badges y diseño responsivo con media queries.
 - **Git**: control de versiones del proyecto.
@@ -20,21 +23,19 @@ El sitio funciona como una carta de presentación de **Bryan Espinoza**, desarro
 - **Warp**: terminal utilizada en el flujo de trabajo de desarrollo.
 
 ## Captura o GIF
+
 A continuación se muestra una imagen de referencia del proyecto (puedes reemplazarla por una captura de pantalla o un GIF del sitio en producción):
 
-![Vista previa de la landing page](assets/img/Developer.jpg)
-
-> Sugerencia: reemplaza esta imagen por una captura real de la landing page completa cuando esté desplegada.
+![Vista previa de la landing page](assets/img/preview.png)
 
 ## Enlace al sitio publicado
-Actualmente el proyecto está pensado para ser desplegado (por ejemplo en GitHub Pages, Netlify o Vercel).
 
 - **Sitio publicado**: _pendiente de despliegue_
 
-> Cuando el sitio esté en producción, actualiza esta sección con el enlace, por ejemplo:
-> `https://tu-usuario.github.io/LandingPage/`
+> `https://landingpage14bz.netlify.app/`
 
 ## Estado del proyecto
+
 - **Estado actual**: Versión inicial funcional.
 - **Posibles mejoras futuras**:
   - Añadir animaciones suaves (por ejemplo, en scroll o al pasar el mouse sobre elementos).
