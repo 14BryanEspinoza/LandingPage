@@ -22,15 +22,15 @@ El sitio funciona como una carta de presentación de **Bryan Espinoza**, desarro
 - **GitHub**: alojamiento del repositorio remoto.
 - **Warp**: terminal utilizada en el flujo de trabajo de desarrollo.
 
-## Captura o GIF
+## Captura
 
-A continuación se muestra una imagen de referencia del proyecto (puedes reemplazarla por una captura de pantalla o un GIF del sitio en producción):
+A continuación se muestra una imagen de referencia del proyecto (puedes reemplazarla por una captura de pantalla del sitio en producción):
 
 ![Vista previa de la landing page](assets/img/preview.png)
 
 ## Enlace al sitio publicado
 
-- **Sitio publicado**: _pendiente de despliegue_
+- **Sitio publicado**: 
 
 > `https://landingpage14bz.netlify.app/`
 
